@@ -29,7 +29,10 @@
         flex-direction: row;
         align-items: center;
         gap: 1rem;
-        color: var(--color-background-1);
+        font-size: 14px;
+        span{
+            color: var(--color-background-1);
+        }    
 
         img{
             width: 50px;
@@ -43,18 +46,34 @@
         width: auto;
         margin: 0;
         padding: 0;
-        gap: 2.5rem;
+        gap: 1.5rem;
         flex-direction: row;
 
         li{
-            display: inline-block;
+            display: inline;
             width: auto;
+
+            &:hover{
+                i, a{
+                    cursor: pointer;
+                    color: var(--color-background-1);
+                    transition: all 0.2s ease-in-out;
+                }
+            }
+
             
+            i{
+                font-size: 10px;
+                color: var(--color-neutral-2);
+            }
+
             a{
                 width: 100%;
-                font-size: 14px;
+                font-size: 12px;
+                font-weight: 600;
+                font-family: Poppins ;
                 text-decoration-line: none;
-                color: var(--color-neutral-1);
+                color: var(--color-neutral-2);
             }
         }
     }
