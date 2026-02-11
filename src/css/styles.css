@@ -22,8 +22,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     
     .logo_title{
         display: flex;
@@ -87,5 +87,73 @@
     #nav_links{
         display: flex;
         flex-direction: row;
+    }
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio{
+    width: 100vw;
+    height: 400px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-background-1);
+
+    .baloon{
+        color: var(--color-neutral-0);
+        font-size: 10px;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        width: fit-content;
+        padding: 0.5rem;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .content{
+         h1{
+            color: var(--color-neutral-0);
+            line-height: 1.2;
+            font-size: 2.5rem;
+        }
+
+        p{
+            color: var(--color-neutral-0)
+        }
+    }
+
+    .buttons{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 100%;
+        font-size: 12px;
+        font-weight: 500;
+
+        
+        .btn0 {
+            background-color: var(--color-neutral-0);
+            color: var(--color-background-1);
+            text-decoration: none;
+            border-radius: 8px;
+            padding: 0.5rem
+        }
+
+        .btn1 {
+            background-color: rgba(255, 255, 255, 0.15);
+            border: solid 1px var(--color-neutral-0);
+            color: var(--color-neutral-0);
+            text-decoration: none;
+            border-radius: 8px;
+            padding: 0.5rem
+        }
     }
 }
