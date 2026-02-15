@@ -258,3 +258,130 @@
     }
     
 }
+
+.explorar{
+    width: 100%;
+    min-height: 80vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 10vh;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .explorar_texts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8vh;
+        padding-top: 8vh;
+        margin-bottom: 8vh;
+        
+        span{
+            color: var(--color-background-1);    
+            text-transform: uppercase;
+        }
+
+        p{
+            color: var(--color-neutral-3);
+            font-weight: 350;
+            font-size: 14px;
+        }
+    }
+
+    .explorar_cards{
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        width: 100%;
+        
+        gap: 20px;
+
+        .explorar_card{
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            background-color: #ffffff;
+            border: solid 1px rgba(255, 255, 255, 0.15);
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            padding: 1.2rem;
+
+            .explorar_card_head{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 1vw;
+
+                #icon_0{
+                    background-color: #124DA1;
+                    color: #E7EDF5;
+                }
+
+                
+                #icon_1{
+                    background-color: #248F50;
+                    color: #E7EDF5;
+                }
+
+                #icon_2{
+                    background-color: #F26C0D;
+                    color: #E7EDF5;
+                }
+
+                #icon_3{
+                    background-color: #148FB8;
+                    color: #E7EDF5;
+                }
+
+                .explorar_card_head_icon{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 8px;
+                    background-color: #E7EDF5;
+                    font-size: 20px;
+                    color: var(--color-background-1);                   
+
+                }
+
+
+                .explorar_card_head_texts{
+
+                    span{
+                        color: var(--color-neutral-3);
+                        font-weight: 500;
+                        font-size: 10px;
+                        text-transform: uppercase;
+                    }
+
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .explorar_card_content{
+                display: flex;
+                flex-direction: column;
+                
+                p{
+                    color: var(--color-neutral-3);
+                    font-size: 12px;
+                    font-weight: 400;
+                    padding-bottom: 10px;
+                }
+
+                a{
+                    text-decoration: none;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: var(--color-background-1);
+                }
+            }
+        }
+    }
+
+}
