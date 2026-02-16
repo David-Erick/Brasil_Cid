@@ -397,7 +397,7 @@
     justify-content: center;
     background-color: var(--color-background-0);
 
-    .content{
+    .content_comecar{
         width: 100%;
         display: flex;
         align-items: center;
