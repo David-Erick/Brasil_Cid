@@ -385,3 +385,51 @@
     }
 
 }
+
+.comecar{
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background-0);
+
+    .content{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 12px;
+        background-color: var(--color-background-1);
+        gap: 3vh;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+
+        p, h2{
+            color: var(--color-neutral-0);
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 250;
+        }
+
+        a{
+            text-decoration: none;
+            color: var(--color-background-1);
+            width: fit-content;
+            padding: 0.8rem;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 550;
+            background-color: var(--color-neutral-0);
+        }
+    }
+
+}
