@@ -178,7 +178,6 @@
             background-color: #124DA1;
             font-size: 20px;
             color: var(--color-neutral-0); 
-            border: solid 1px var(--color-neutral-0);
         }
     }
 }
