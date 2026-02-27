@@ -6,4 +6,4 @@ A verdade é que todos estes serão sujeitos às decisões tomadas por represent
 
 Como, estes atuais jovens, poderão participar de seu Estado e viver em um local onde suas opiniões são ouvidas ao invés de apenas receberem escolhas predefinidas por um grupo de "manobristas" articuladores que, no final, independente das escolhas realizadas pelo "povo miope", saírão em busca de decisões para seu benefício próprio? 
 
-Esse é o Brasil Cidadão. Um site feito para curar a "miopia política" a qual somos impostos.
+ Esse é o Brasil Cidadão. Um site feito para curar a "miopia política" a qual somos impostos.
